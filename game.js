@@ -19,8 +19,8 @@
 
     // Characters
     const characters = {
-        boki:  { file: 'Boki.png',  highScoreKey: 'flappyBokiHighScore' },
-        nikki: { file: 'Nikki.png', highScoreKey: 'flappyNikkiHighScore' }
+        boki:  { file: 'Boki.PNG',  highScoreKey: 'flappyBokiHighScore' },
+        nikki: { file: 'Nikki.PNG', highScoreKey: 'flappyNikkiHighScore' }
     };
     let selectedCharacter = 'boki';
     
