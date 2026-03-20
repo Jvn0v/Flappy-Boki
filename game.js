@@ -397,7 +397,7 @@
         
         // Pipes
         pipeTimer += delta;
-        let pipeInterval = Math.max(55, 75 - Math.floor(score / 5) * 5);
+        let pipeInterval = Math.max(60, Math.floor(window.innerWidth * 0.4 / gameSpeed));
         if (pipeTimer >= pipeInterval) {
             pipeTimer = 0;
             addPipe();
