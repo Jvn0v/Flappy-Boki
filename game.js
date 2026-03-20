@@ -397,7 +397,7 @@
         
         // Pipes
         pipeTimer += delta;
-        let pipeInterval = Math.max(70, 95 - Math.floor(score / 5) * 5);
+        let pipeInterval = Math.max(55, 75 - Math.floor(score / 5) * 5);
         if (pipeTimer >= pipeInterval) {
             pipeTimer = 0;
             addPipe();
