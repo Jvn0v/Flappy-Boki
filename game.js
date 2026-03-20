@@ -167,7 +167,7 @@
         bird.gravity = 0.5;
         
         pipeWidth = Math.min(w * 0.12, 80);
-        pipeGap = Math.max(h * 0.32, 190);
+        pipeGap = Math.max(h * 0.28, 160);
         
         if (gameState === 'home') {
             bird.x = w / 2 - bird.width / 2;
@@ -397,7 +397,7 @@
         
         // Pipes
         pipeTimer += delta;
-        let pipeInterval = Math.max(90, 120 - Math.floor(score / 5) * 5);
+        let pipeInterval = Math.max(70, 95 - Math.floor(score / 5) * 5);
         if (pipeTimer >= pipeInterval) {
             pipeTimer = 0;
             addPipe();
