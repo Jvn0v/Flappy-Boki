@@ -29,7 +29,7 @@
     let score = 0;
     let highScore = 0;
     let frames = 0;
-    let gameSpeed = 6;
+    let gameSpeed = 4.5;
     let shakeDuration = 0;
     
     // Bird
@@ -264,7 +264,7 @@
         
         score = 0;
         frames = 0;
-        gameSpeed = 6;
+        gameSpeed = 4.5;
         pipeTimer = 0;
         pipes = [];
         particles = [];
